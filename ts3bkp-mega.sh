@@ -25,7 +25,7 @@ then
     /bin/su $USR -c "$PATH/ts3server_startscript.sh stop"
 fi
 echo -e "${YL}Starting buckup process...${NC}"
-/bin/su $USR -c "/usr/bin/zip -r /home/$USR/ts3_bkp_$TODAY.zip $PATH"
+/bin/su $USR -c "/usr/bin/zip -r /home/$USR/ts3_bkp_$TODAY.zip $PATH &>/dev/null"
 
 echo -e "${GREEN}Backup complete!!!!${NC}"
 
