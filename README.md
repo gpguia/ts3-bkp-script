@@ -10,6 +10,9 @@ Just download the script, make sure that you have all prerequisites listed below
 
 What things you need to use this script
 
+Edit the script to your server user and paths.
+If you need help, see how here: [documentation](https://pguia.com/doc/ts3script.html)
+
 ```
 * zip
 * sftp
@@ -24,7 +27,7 @@ What things you need to use this script
 ```
 ## Authors
 
-* **Guilherme Guia** - *Ts3 Script* - [pguia.com](https://pguia.com/)
+* **Guilherme Guia** - *Personal page* - [pguia.com](https://pguia.com/)
 
 ## License
 
