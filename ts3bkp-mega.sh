@@ -38,7 +38,7 @@ echo ""
 
 echo -e "${YL}Starting to transfer backup to MEGA...${NC}"
 
-megaput $PATHBKP/ts3_bkp_$TODAY.zip --reload --username=$EMAIL --password=$PASSWD --path=$PATHMEGA --disable-previews
+/usr/bin/megaput $PATHBKP/ts3_bkp_$TODAY.zip --reload --username=$EMAIL --password=$PASSWD --path=$PATHMEGA --disable-previews
 
 echo ""
 
